@@ -1,0 +1,49 @@
+/* Sidebar.css */
+
+.sidebar {
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  width: 20%;
+  background-color: #f4f4f4;
+}
+
+.sidebar h2 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.sidebar div {
+  margin-bottom: 10px;
+}
+
+.sidebar label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.sidebar input[type="radio"] {
+  
+  background-color: rgb(48, 133, 54);
+}
+
+/* Style the radio button circle */
+.sidebar input[type="radio"] + label::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 5px;
+  border: 2px solid #000; /* Change the color of the radio button border */
+  background-color: #fff; /* Change the color inside the radio button */
+}
+
+/* Style the radio button circle when checked */
+.sidebar input:checked ~ .checkmark{
+  background-color: #000000;
+  border-color: #007bff;
+}

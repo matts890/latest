@@ -1,0 +1,77 @@
+/* Menu.css */
+
+.sect {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_bar {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.menu-container {
+  display: flex;
+}
+
+
+.items {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto a new line */
+  margin-left: 10px;
+}
+
+.Item {
+  flex: 1; /* Equal width for each item */
+  margin: 10px; /* Adjust margin as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.im{
+  border-radius: 10px;
+}
+.Item:hover {
+  background-color: #f8f8f8; /* Change to your desired hover background color */
+  transform: scale(1.05); /* Scale up slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+
+
+.offer {
+  background-color: #7bff07; /* Yellow background for the offer */
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  margin:10px;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.offer-text {
+  font-weight: bold;
+  text-align: center;
+}
+
+.offer_box{
+  display: flex;
+}
+
+/* Menu.css */
+
+.category-dropdown {
+  margin: 10px;
+}
+
+.category-dropdown label {
+  margin-right: 10px;
+}
+
+.category-dropdown select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+

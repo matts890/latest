@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.CForm{
+  display: block;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 2px #ddd;
+  margin:40px auto;
+  max-width: 600px;
+  max-height: 700px;
+  padding: 20px 40px;
+}
+
+.CForm input, textarea{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 15px auto;
+  padding: 10px;
+  font-family: "Poppins";
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
+
+.CForm button{
+    height: 30px;
+    width: 80px;
+    align-items: center;
+    background-color: rgb(29, 185, 237);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.CForm #Fspan{
+    color: rgb(46, 237, 29);
+}

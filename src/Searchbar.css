@@ -1,0 +1,31 @@
+.bar{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 55%;
+}
+
+.search_bar {
+    border: none; /* Remove the border */
+    border-radius: 20px; /* Set the border radius */
+    padding: 10px;
+    background-color: #EEEEEE;
+    width: 100%;
+  }
+  
+  /* Optional: Style the focused state */
+  .search_bar:focus {
+    outline: none; /* Remove the default outline on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a box-shadow on focus for better visibility */
+  }
+  
+
+
+.s_but{
+    padding: 15px;
+    margin-left:10px;
+    border-radius: 20px;
+    border: none;
+}
